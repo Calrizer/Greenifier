@@ -21,14 +21,14 @@ class Greenifier extends PluginBase implements Listener{
   public function onCommand(CommandSender $sender, Command $command, $label, array $args){
     switch($command->getName()){
       case "greenify":
-        if(count($args) !== 1){
-					$sender->sendMessage(TextFormat::RED . "Usage: " . $command->getUsage());
-					return true;
-				}
+        if(count($args) !== 0){
+		$sender->sendMessage(TextFormat::RED . "Usage: " . $command->getUsage());
+		return true;
+	}
 				
-				$sender->sendMessage("Prepare for a lag spike!");
+	$sender->sendMessage("Prepare for a lag spike!");
 				
-				$level = $sender->getLevelByName();
+	$level = $sender->getLevelByName();
   
         for($x = -10000; $x <= 10000; $x++) {
           for($z = -10000; $z <= 10000; $z++) {
