@@ -30,9 +30,9 @@ class Greenifier extends PluginBase implements Listener{
 				
 	$level = $sender->getLevel();
   
-        for($x = -100; $x <= 100; $x++) {
-          for($z = -100; $z <= 100; $z++) {
-            $level->setBiomeColor($x,$z,127,169,16);
+        for($x = -1000; $x <= 1000; $x++) {
+          for($z = -1000; $z <= 1000; $z++) {
+            $level->setBiomeColor($x,$z,127,169,76);
           }
         }
         
