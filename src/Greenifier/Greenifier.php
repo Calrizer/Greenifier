@@ -12,7 +12,11 @@ use pocketmine\level\format\generic\BaseChunk.php
 use pocketmine\level\format\generic\BaseChunk__32bit.php
 use pocketmine\level\format\generic\BaseChunk__64bit.php
 
-{
+class Greenifier extends PluginBase implements Listener{
+  
+  public function onEnable(){
+        
+        $this->getServer()->getPluginManager()->registerEvents($this, $this);
   
   for($x = -10000; $x <= 10000; $x++) {
   for($z = -10000; $z <= 10000; $z++) {
