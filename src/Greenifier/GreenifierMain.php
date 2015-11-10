@@ -8,6 +8,10 @@ use pocketmine\level\Level__64bit.php
 use pocketmine\level\format\mcregion\Chunk.php
 use pocketmine\level\format\mcregion\Chunk__32bit.php
 use pocketmine\level\format\mcregion\Chunk__64bit.php
+use pocketmine\level\format\generic\BaseChunk.php
+use pocketmine\level\format\generic\BaseChunk__32bit.php
+use pocketmine\level\format\generic\BaseChunk__64bit.php
+
 {
   
   for($x = -10000; $x <= 10000; $x++) {
