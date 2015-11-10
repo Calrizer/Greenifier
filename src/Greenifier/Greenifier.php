@@ -28,15 +28,16 @@ class Greenifier extends PluginBase implements Listener{
 				
 	$sender->sendMessage("Prepare for a lag spike!");
 				
-	$level = $sender->getLevelByName();
+	$level = $sender->getLevel();
   
-        for($x = -10000; $x <= 10000; $x++) {
-          for($z = -10000; $z <= 10000; $z++) {
-            $level->setBiomeColor($x,$z,127,169,76);
+        for($x = -100; $x <= 100; $x++) {
+          for($z = -100; $z <= 100; $z++) {
+            $level->setBiomeColor($x,$z,127,169,16);
           }
         }
         
         return true;
-    }
+    }   
+  }
 }
 ?>
