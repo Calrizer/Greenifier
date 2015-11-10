@@ -1,5 +1,5 @@
 # Greenifier
-Smashes The Black Grass Bug On Imported MCRegion PocketMine Worlds!
+Smashes The Black Grass Bug On Imported MCRegion PocketMine Worlds For A 10,000 Block Radius!
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 How To Install:
