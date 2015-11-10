@@ -1,7 +1,9 @@
 name: Greenifier
-main: Greenifier\Greenifier
 version: 0.0.1
+api: [1.0.0]
+author: Calrizer
 description: Smashes The Black Grass Bug On Imported PocketMine Worlds!
+main: Greenifier\Greenifier
 
 commands:
  greenify:
