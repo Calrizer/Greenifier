@@ -1,5 +1,5 @@
 name: Greenifier
-main: Greenifier\src
+main: Greenifier\GreenifierMain
 version: 0.0.1
 api: 1.12.0
 load: STARTUP
