@@ -1,9 +1,8 @@
 # Greenifier
-Smashes The Black Grass Bug On Imported PocketMine Worlds For A 10,000 Block Radius!
+Smashes the black grass bug on imported PocketMine worlds for a 1000 block radius!
+##How To Use
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-How To Install:
+Use /greenify to fix the black block errors.
+##How To Install
 
-1. Download the source, compile it into a .phar, and drop it into your plugins folder. OR
-2. Download the source as a zip, download "ZipPluginLoader" from http://forums.pocketmine.net/plugins, and drop both of them into your plugins folder. OR
-3. Download the source, and import it using DevTools!
+Go to releases and download the most recent .phar release.
