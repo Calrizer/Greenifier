@@ -10,6 +10,7 @@ use pocketmine\Server;
 use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
+use pocketmine\math\Vector3;
 
 class Greenifier extends PluginBase implements Listener{
   
@@ -29,9 +30,13 @@ class Greenifier extends PluginBase implements Listener{
 	$sender->sendMessage("Prepare for a lag spike!");
 				
 	$level = $sender->getLevel();
+	
+	$playerX = $sender->getFloorX();
+	
+	$playerZ = $sender->getFloorZ();
   
-        for($x = -1000; $x <= 1000; $x++) {
-          for($z = -1000; $z <= 1000; $z++) {
+        for($x = $playerX - 100; $x <= $playerX + 100; $x++) {
+          for($z = $playerZ - 100; $z <= $playerZ + 100; $z++) {
             $level->setBiomeColor($x,$z,127,169,76);
           }
         }
