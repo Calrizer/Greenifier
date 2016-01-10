@@ -1,5 +1,24 @@
 name: Greenifier
-main: Greenifier\GreenifierMain
 version: 0.0.1
-load: STARTUP
+api: [1.0.0]
+author: Calrizer
 description: Smashes The Black Grass Bug On Imported PocketMine Worlds!
+main: Greenifier\Greenifier
+
+commands:
+ greenify:
+  description: "Sets grass blocks green."
+  usage: "/greenify"
+  permission: "Greenifier.command.greenify"
+
+permissions:
+ Greenifier:
+  default: op
+  description: "Allows using all the Greenifier functionality."
+  children:
+   Greenifier.command:
+    default: op
+    description: "Allows using the greenify command."
+    children:
+     Greenifier.command.greenify:
+      default: op
